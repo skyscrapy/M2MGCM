@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"   
+    android:orientation="horizontal"  
+    android:layout_width="fill_parent"   
+    android:layout_height="fill_parent"
+    android:background="@drawable/border_line_title">   
+   <!--    
+     <Button   
+         android:id="@+id/btnLeft"   
+         android:text="返回" android:textSize="15.0sp"  
+         android:layout_width="wrap_content"   
+         android:layout_height="wrap_content"   
+         android:layout_marginLeft="12.0dip"   
+         android:layout_alignParentLeft="true"   
+         android:layout_centerVertical="true" />  
+    <Button   
+         android:id="@+id/btnRight"   
+         android:text="发布" android:textSize="15.0sp"  
+         android:layout_width="wrap_content"   
+         android:layout_height="wrap_content"   
+         android:layout_marginRight="12.0dip"   
+         android:layout_alignParentRight="true"   
+         android:layout_centerVertical="true" />  
+         
+         --> 
+    <TextView 
+        android:id="@+id/title"
+        android:textSize="22.0sp"   
+         android:textColor="#F00B10"  
+          android:ellipsize="middle"  
+           android:gravity="center_horizontal"     
+           android:layout_width="wrap_content"   
+           android:layout_height="wrap_content"   
+            android:singleLine="true" 
+            android:text="iKnow"
+            android:layout_toLeftOf="@+id/btnRight" 
+            android:layout_toRightOf="@+id/btnLeft" 
+            android:layout_centerInParent="true" android:layout_alignWithParentIfMissing="true" >  
+    </TextView>  
+</RelativeLayout>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/shadowsilver"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+<LinearLayout
+    android:layout_width="fill_parent"
+       android:layout_height="0dp"
+       android:layout_weight="0.15"
+       android:background="@drawable/border_line"
+    >
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:textSize="18dp"
+        android:text="請選擇3個您擅長的領域:"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+         />
+  </LinearLayout>
+  <ImageView
+      android:layout_width="fill_parent"
+      android:layout_height="10dp"
+      android:background="@color/shadowsilver"/>
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.7"
+      android:orientation="vertical"
+      >
+	<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+    android:background="@drawable/border_line" >
+        <CheckBox
+            android:id="@+id/checkComputer"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:onClick="onCheckBoxClicked"
+            android:button="@null"
+            android:drawableTop="@drawable/checkbox_selector1"
+            android:text="科技" 
+            android:gravity="center"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:id="@+id/checkLife"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:onClick="onCheckBoxClicked"
+            android:button="@null"
+             android:drawableTop="@drawable/checkbox_selector2"
+            android:text="生活"  
+            android:gravity="center"
+            android:textColor="#000000"/>
+   </LinearLayout>
+	<LinearLayout
+        android:layout_width="fill_parent"
+            android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/border_line">
+
+        <CheckBox
+            android:id="@+id/checkHealth"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:onClick="onCheckBoxClicked"
+            android:text="健康"  
+            android:button="@null"
+            android:drawableTop="@drawable/checkbox_selector3"
+             
+            android:gravity="center"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:id="@+id/checkSports"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:onClick="onCheckBoxClicked"
+            android:text="運動"  
+            android:button="@null" 
+            android:gravity="center"
+            android:drawableTop="@drawable/checkbox_selector4"
+            android:textColor="#000000"/>
+   </LinearLayout>
+
+  <LinearLayout
+        android:layout_width="fill_parent"
+            android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/border_line"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkDigital"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:onClick="onCheckBoxClicked"
+            android:text="電玩"  
+            android:button="@null" 
+            android:gravity="center"
+            android:drawableTop="@drawable/checkbox_selector5"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:id="@+id/checkBusiness"
+           android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:onClick="onCheckBoxClicked"
+            android:button="@null"
+            android:text="時事"   
+            android:gravity="center"
+            android:drawableTop="@drawable/checkbox_selector6"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+            android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:orientation="horizontal"
+        android:background="@drawable/border_line">
+
+        <CheckBox
+            android:id="@+id/checkEducation"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:onClick="onCheckBoxClicked"
+            android:text="學術"  
+            android:button="@null" 
+            android:gravity="center"
+             android:drawableTop="@drawable/checkbox_selector7"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:id="@+id/checkLiterature"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:onClick="onCheckBoxClicked"
+            android:button="@null"
+            android:text="美食"   
+            android:gravity="center"
+            android:drawableTop="@drawable/checkbox_selector8"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+            android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/border_line">
+        <CheckBox
+            android:id="@+id/checkEntertainment"
+           android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:onClick="onCheckBoxClicked"
+            android:text="娛樂"  
+            android:button="@null" 
+            android:gravity="center"
+            android:drawableTop="@drawable/checkbox_selector9"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:id="@+id/checkEmotion"
+           android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:onClick="onCheckBoxClicked"
+            android:button="@null"
+            android:text="心情"   
+            android:gravity="center"
+            android:drawableTop="@drawable/checkbox_selector10"
+            android:textColor="#000000"/>
+    </LinearLayout>
+</LinearLayout>
+<ImageView
+      android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:background="@color/shadowsilver"
+    />
+<LinearLayout
+    android:layout_width="fill_parent"
+        android:layout_height="0dp"
+       android:layout_weight="0.12"
+        android:layout_gravity="center"
+        android:gravity="center"
+    >
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/iknowbutton"
+        android:gravity="center"
+        
+        android:textColor="@color/red" />
+
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout 
+    android:orientation="vertical"  
+    android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@android:color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView
+    android:id="@+id/txt_user"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:textColor="#000000"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp" >
+</TextView>
+<TextView
+    android:id="@+id/txt_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:textSize="30dp"
+    android:textColor="#000000"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:maxLines="2"
+    android:singleLine="false"
+	 >
+</TextView>
+<TextView
+    android:id="@+id/txt_question"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textSize="20dp"
+    android:textColor="#000000" 
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:maxLines="2"
+    android:singleLine="false"
+>
+</TextView>
+<TextView
+    android:id="@+id/txt_time"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:textSize="10dp"
+    android:textColor="#EBEDF0" 
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp">
+</TextView>
+<ListView
+    android:background="#EBEDF0"
+    android:id="@+id/fragment_list"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.9"
+    android:divider="#EBEDF0"
+    android:dividerHeight="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:cacheColorHint="#000000"
+    android:fadingEdge="none"
+     >
+ 
+ </ListView>
+  <TextView 
+        android:id="@+id/nodata"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_weight="0.85"
+        android:text="目前沒有回答哦！" />
+ <LinearLayout
+     android:layout_width = "fill_parent"
+     android:layout_height = "0dp"
+     android:layout_weight = "0.15"
+     >
+<EditText
+    android:id="@+id/editanswer"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="0.8"
+ >
+ </EditText>
+ <Button
+     android:id="@+id/sendanswer"
+     android:layout_width="0dp"
+     android:layout_height="match_parent"
+     android:layout_weight="0.2"
+     android:background="#FFFFFF"
+     android:text="回答"
+     android:textColor="#000000"
+     android:textSize="20dp"
+     >
+     </Button>
+  </LinearLayout>
+</LinearLayout>

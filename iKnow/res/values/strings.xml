@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iKnow</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Android Push Notifications</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">GCM: device successfully unregistered!</string>
+    <string name="gcm_message">GCM: you got message!</string>
+    <string name="gcm_error">GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">iKnow: successfully added device!</string>
+    <string name="server_unregistered">iKnow: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on iKnow after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on iKnow (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+    <string name="defaultText">  Select User </string>
+    <string name="spin_prompt">Select Question Type </string>
+    <string name="action_settings">Settings</string>
+    <string name="pull_to_refresh_pull_down_label">滑動刷新</string>
+    <string name="pull_to_refresh_release_label">釋放刷新</string>
+    <string name="pull_to_refresh_refreshing_label">加載中</string>
+    <string name="pull_to_refresh_tap_label">點擊刷新</string>
+    <string name="slide_notify">&#060;&#060;&#060;&#060;&#060;&#060;向左滑動以繼續&#060;&#060;&#060;&#060;&#060;&#060;</string>
+    <string-array name="types">
+        <item>無</item>
+        <item>科技</item>
+        <item>生活 </item>
+        <item>健康 </item>
+        <item>運動</item>
+        <item>電玩</item>
+        <item>時事 </item>
+        <item>學術</item>
+        <item>美食</item>
+        <item>娛樂</item>
+        <item>心事</item>
+        <item>定位</item>
+    </string-array>
+
+	<string name="nulll">無</string>
+	<string name="computer">科技 </string>
+	<string name="life">生活 </string>
+	<string name="health">健康 </string>
+	<string name="sports">運動</string>
+	<string name="digital">電玩 </string>
+	<string name="business">時事</string>
+	<string name="education">學術</string>
+	<string name="literature">美食</string>
+	<string name="entertainment">娛樂</string>
+	<string name="emotion">心事</string>
+	<string name="location">定位</string>
+	<string name="prompt">選擇你的最愛</string>
+	
+	
+	
+    <drawable name="Blue">#b0e0e6</drawable>
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="black">#000000</drawable>
+    <drawable name="green">#347C2C</drawable>
+    <drawable name="pink">#FF00FF</drawable>
+    <drawable name="violet">#a020f0</drawable>
+    <drawable name="grey">#cccccc</drawable>
+    <drawable name="red">#C11B17</drawable>
+    <drawable name="yellow">#FFFF8C</drawable>
+    <drawable name="PowderBlue">#b0e0e6</drawable>
+    <drawable name="brown">#2F1700</drawable>
+
+    <string name="select_Category">Select User</string>
+
+    <drawable name="darkgrey">#606060</drawable>
+
+    <string name="title_activity_display_question">DisplayQuestion</string>
+    <string name="title_activity_display_answer_fragment">DisplayAnswerFragment</string>
+    <string name="title_activity_questiondisplay">Questiondisplay</string>
+    <string name="title_activity_display_answer">DisplayAnswer</string>
+    <string name="title_activity_recommend">Recommend</string>
+
+</resources>

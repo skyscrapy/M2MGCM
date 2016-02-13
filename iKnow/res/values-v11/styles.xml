@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+ <style name="custom_window_title_background">
+        <item name="android:background">#FFFFFF</item>
+    </style>
+    <style name="custom_title">
+        <item name="android:windowTitleSize">50dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/custom_window_title_background</item>
+    </style>
+</resources>

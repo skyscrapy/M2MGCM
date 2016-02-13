@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>  
+    <color name="red">#F00B10</color>  
+    <color name="black">#000000</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="shadowsilver">#EBEDF0</color>
+    <color name="deepsilver">#ADABAC</color>
+    <color name="bordercolor">#BBBBBB</color>
+    <color name="deepgray">#959595</color>
+</resources>

@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEDF0"
+    android:orientation="vertical"
+    android:paddingTop="20dp" 
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp">
+    
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/border_line"
+	    android:orientation="vertical" 
+	    android:paddingRight="5dp"
+	    android:paddingLeft="5dp">
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="74dp"
+         android:layout_height="wrap_content"
+         android:text="標題"
+         android:textColor="#000000"
+         android:textSize="20sp"
+          android:paddingLeft="5dp"
+         android:paddingBottom="5dp" />
+
+     <EditText
+         android:id="@+id/txtTitle"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="top"
+         android:ems="10"
+         android:gravity="top" 
+         android:textColor="#000000"
+         android:paddingTop="10dp"
+         android:paddingLeft="5dp"
+         android:paddingRight="5dp"
+         >
+
+         <requestFocus />
+     </EditText>
+	<TextView
+         android:id="@+id/txtCount"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="right"
+         android:text="15"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+     
+</LinearLayout>
+<ImageView 
+    android:layout_height="20dp"
+    android:layout_width="fill_parent"
+    android:background="#EBEDF0"
+    />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:layout_weight="0.05"
+    >
+
+    <Spinner
+        android:id="@+id/Tag"
+        android:layout_width="146dp"
+        android:layout_height="fill_parent"
+        android:background="@drawable/border_line"
+        android:drawSelectorOnTop="true"
+        android:gravity="center"
+        android:prompt="@string/prompt"
+        android:textColor="#000000" />
+
+</LinearLayout>
+<ImageView 
+    android:layout_height="20dp"
+    android:layout_width="fill_parent"
+    android:background="#EBEDF0"
+    />
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_line"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingRight="5dp"
+	android:paddingLeft="5dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="內容"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="top"
+        android:height="100dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="#000000" />
+    <TextView
+         android:id="@+id/txtNumber"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="right"
+         android:text="1000"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+</LinearLayout>
+
+   <ImageView 
+    android:layout_height="10dp"
+    android:layout_width="fill_parent"
+    android:background="#EBEDF0"
+    />  
+	
+     <Button
+         android:id="@+id/btnSend"
+         android:layout_width="75dp"
+         android:layout_height="37dp"
+         android:layout_gravity="center"
+         android:background="@drawable/sendbutton"
+         android:gravity="center"
+         android:paddingTop="20dp"
+         android:textColor="@color/red"
+         android:textSize="20sp" />
+
+</LinearLayout>

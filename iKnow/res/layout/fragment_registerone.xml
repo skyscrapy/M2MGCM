@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEDF0"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+    
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="0dp"
+         android:layout_weight="0.4"
+         android:layout_gravity="center"
+         android:gravity="center">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:src="@drawable/iknow" />
+    </LinearLayout>
+    <ImageView
+         android:layout_width="fill_parent"
+         android:layout_height="20dp"
+         android:background="#EBEDF0"
+         >
+         
+     </ImageView>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:orientation="vertical"
+         android:background="@drawable/border_line"
+        >
+        <TextView
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:layout_marginLeft="10dip"
+         android:layout_marginRight="10dip"
+         android:layout_marginTop="10dip"
+         android:text="Name:"
+         android:textColor="#000000"
+         android:textSize="@dimen/padding_large" />
+     
+     <EditText android:id="@+id/txtName" 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:layout_margin="10dip"
+         android:layout_marginBottom="20dip"
+         android:textColor="#000000"/>
+        
+        
+    </LinearLayout>
+     <ImageView
+         android:layout_width="fill_parent"
+         android:layout_height="20dp"
+         android:background="#EBEDF0"
+         >
+         
+     </ImageView>
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:orientation="vertical"
+         android:background="@drawable/border_line"
+         >
+         <TextView
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:layout_marginLeft="10dip"
+         android:layout_marginRight="10dip"
+         android:layout_marginTop="10dip"
+         android:text="Email:"
+         android:textColor="#000000"
+         android:textSize="@dimen/padding_large" />
+     
+     <EditText android:id="@+id/txtEmail" 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:layout_margin="10dip"
+         android:layout_marginBottom="20dip"
+         android:textColor="#000000"/>
+         
+     </LinearLayout>
+     
+     </LinearLayout>
+     <TextView
+         android:id="@+id/notifyslide" 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="10dip"
+         android:layout_marginBottom="20dip"
+         android:textColor="#000000"
+         android:text="@string/slide_notify"
+         android:textSize="15dp"
+         android:gravity="center"
+         />
+
+</LinearLayout>

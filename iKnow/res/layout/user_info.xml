@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EBEDF0"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp" xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:orientation="horizontal"
+        android:background="@drawable/border_line"
+        
+    >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.3"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:orientation="vertical"
+    >
+<ImageView
+	    	    android:id="@+id/userlevelimg"
+	    	    android:layout_width="fill_parent"
+        		android:layout_height="0dp"
+	    	    android:layout_weight="0.8"
+	    	    android:scaleType="fitCenter"
+	    	    >
+	    	    
+	    	    
+	    	</ImageView>
+    
+    
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.7" 
+        android:orientation="vertical"
+        
+    >
+       <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:orientation="horizontal"
+    	>
+    	
+	    	<TextView
+        android:id="@+id/username"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.4"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        
+         >
+         
+       </TextView>
+    		<TextView
+	    		        android:id="@+id/interest1"
+	    		        android:layout_width="0dp"
+	    		        android:layout_height="fill_parent"
+	    		        
+	    		        android:layout_weight="0.6"
+	    		        android:gravity="center"
+	    		        android:textColor="#000000"
+	    		        android:textSize="18dp" >
+
+	    		      </TextView> 
+    	</LinearLayout>
+    
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        
+        
+    	>
+	    		<LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="0.7"
+	        android:orientation="horizontal"
+	        
+	        
+	    	>
+	    		<LinearLayout
+	    		    android:layout_width="0dp"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="0.5"
+			        android:orientation="vertical"
+			        
+	    		    >
+
+	    		  <TextView
+	    		      android:id="@+id/user_point"
+	    		      android:layout_width="fill_parent"
+	    		      android:layout_height="0dp"	    		   
+	    		      android:layout_weight="0.5"
+	    		      android:textSize="18dp"
+	    		      android:text="積   分：" 
+	    		      android:textColor="#000000"
+	    		      android:layout_gravity="center"
+    		   		  android:gravity="left">
+
+	    		      </TextView>  
+	    		    <TextView
+	    		      
+	    		      android:layout_width="fill_parent"
+			          android:layout_height="0dp"
+			          android:layout_weight="0.5"
+			          android:text="關於我："
+			          android:textSize="18dp"
+			          android:textColor="#000000"
+			          android:layout_gravity="center"
+    		    	  android:gravity="left"
+	    		      >
+	    		      </TextView>  
+	    		    
+	    		</LinearLayout>
+	    		
+	    		<LinearLayout
+	    		    android:layout_width="0dp"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="0.5"
+			        android:orientation="vertical"
+	    		    >
+
+	    		     
+	    		    <TextView
+	    		      android:id="@+id/interest2"
+	    		      android:layout_width="fill_parent"
+	    		        android:layout_height="0dp"
+			          android:layout_weight="0.5"
+			          android:textSize="18dp"
+			          android:textColor="#000000"
+			          android:layout_gravity="left"
+    		    	android:gravity="left"
+	    		      >
+	    		      </TextView>  
+	    		    <TextView
+	    		      android:id="@+id/interest3"
+	    		      android:layout_width="fill_parent"
+	    		        android:layout_height="0dp"
+			          android:layout_weight="0.5"
+			          android:textSize="18dp"
+			          android:textColor="#000000"
+			          android:layout_gravity="left"
+    		    	android:gravity="left"
+	    		      >
+	    		      </TextView>  
+	    		    
+	    		    </LinearLayout>
+	    	</LinearLayout>
+    
+    	</LinearLayout>
+    	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal"
+        
+        
+    	>
+	    	
+    	    
+    	    <TextView
+	    		    android:id="@+id/selfintro"
+	    		    android:textColor="#959595"
+	    		    android:textSize="16dp"
+	    		    android:layout_gravity="left"
+	    		    android:gravity="left"
+	    		    android:layout_width="0dp"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="0.9"
+			        android:singleLine="true">
+	    		    
+	    		</TextView>
+	    		
+    	    	<ImageView
+	    		    android:id="@+id/editimg"
+	    		    android:layout_width="0dp"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="0.1">
+			    		    
+	    		    </ImageView>
+	    	</LinearLayout>
+    </LinearLayout>
+    
+    
+</LinearLayout>
+<ImageView
+    android:layout_width="wrap_content"  
+        android:layout_height="20dp"     
+        android:background="#EBEDF0" 
+    
+    />
+<LinearLayout
+    android:layout_width="fill_parent"
+	android:layout_height="0dp"
+	android:layout_weight="0.2" 
+	android:orientation="horizontal"
+    android:background="@drawable/border_line"   
+    >
+    <TextView
+        android:layout_width="0dp"
+		android:layout_height="fill_parent"
+		android:layout_weight="0.4"
+		android:layout_gravity="center"
+		android:text="開啟/關閉通知"
+		android:textColor="#000000"
+		android:textSize="20sp"
+		android:gravity="center"
+        />
+    <TextView
+        android:layout_width="0dp"
+		android:layout_height="fill_parent"
+		android:layout_weight="0.4"
+		
+		
+        />
+<LinearLayout 
+    android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="0.2"
+        android:orientation="vertical"
+        >
+    	<TextView
+    	    android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="0.1"
+    	    
+    	    />
+    <com.iknow.mobilegcm.ToggleButton
+        android:id="@+id/toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.9"
+        android:gravity="center"
+        />
+    </LinearLayout>
+</LinearLayout>
+
+<TextView   
+    	android:id="@+id/asked"
+        android:layout_width="wrap_content"  
+        android:layout_height="30dp"  
+        android:text="已提出問題"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="#EBEDF0"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"  
+        />
+<LinearLayout 
+    android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:gravity="center"
+    	android:layout_gravity="center"
+    	android:background="@drawable/border_line"
+    	android:orientation="horizontal"
+    	>
+
+    <TextView
+        android:id="@+id/askednum"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.3"
+        android:textSize="30sp"
+        android:textColor="#F00B10"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+    <ImageView
+        android:id="@+id/askedinfo"
+            
+            android:src="@drawable/userasked"
+        android:scaleType="fitCenter"
+        android:layout_weight="0.3"
+    	android:layout_width="0dp"
+    	android:layout_height="fill_parent"
+    	
+    	 />
+<TextView
+        android:id="@+id/askedmsg"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.3"
+        android:text="點我查看歷史"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+    
+   </LinearLayout>
+   <TextView   
+       android:id="@+id/answered"
+        android:layout_width="wrap_content"  
+        android:layout_height="30dp"
+        android:textSize="20sp"  
+        android:text="已回答問題"
+        android:textColor="#000000"
+        android:background="#EBEDF0"  
+        android:layout_gravity="bottom" 
+        android:gravity="bottom"  
+        />
+<LinearLayout
+    android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:gravity="center"
+    	android:layout_gravity="center"
+    	android:background="@drawable/border_line"
+    	>   
+    	 <TextView
+        android:id="@+id/answerednum"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.3"
+        android:textSize="30sp"
+        android:textColor="#F00B10"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+   <ImageView
+            android:id="@+id/answeredinfo"
+            android:src="@drawable/useranswered"
+        android:scaleType="centerInside"
+    	android:layout_weight="0.3"
+    	android:layout_width="0dp"
+    	android:layout_height="fill_parent"
+    	
+    	 />
+
+<TextView
+    android:id="@+id/answeredmsg"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:layout_weight="0.3"
+    android:gravity="center"
+    android:text="點我查看歷史"
+    android:textColor="#000000"
+    android:textSize="18sp" />
+
+</LinearLayout>            
+            
+</LinearLayout>
